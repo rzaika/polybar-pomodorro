@@ -12,7 +12,7 @@ How to setup:
 - replace ${path_to_polybar-pomodorro} with project path
 - restart polybar
 
-config.ini exemple
+config.ini example
 ```
 [module/pomodorro]
 type = custom/script
