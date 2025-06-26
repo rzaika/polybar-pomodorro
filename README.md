@@ -13,11 +13,12 @@ How to setup:
 - restart polybar
 
 config.ini exemple
-`[module/pomodorro]`
-`type = custom/script`
-`exec = ${path_to_polybar-pomodorro}/pomo.py
-`interval = 1`
-`click-left = ${path_to_polybar-pomodorro}/pomo.py toggle`
-`click-right =  ${path_to_polybar-pomodorro}/pomo.py chmod`
+```
+[module/pomodorro]
+type = custom/script
+exec = ${path_to_polybar-pomodorro}/pomo.py
+interval = 1
+click-left = ${path_to_polybar-pomodorro}/pomo.py toggle
+click-right =  ${path_to_polybar-pomodorro}/pomo.py chmod
 
 
